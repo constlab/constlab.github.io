@@ -1,0 +1,107 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.token {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+}
+
+.token__main {
+  display: flex;
+  align-items: center;
+  background-color: #4774B9;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 20px;
+  overflow: hidden;
+}
+
+.token__main--open {
+  padding-bottom: 2px;
+  margin-bottom: -2px;
+}
+
+.token__btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  color: inherit;
+  text-align: left;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+.token__name {
+  display: flex;
+  align-items: center;
+  padding: 4px 5px 4px 8px;
+}
+
+.token__name:hover {
+  background-color: #6588bd;
+}
+
+.token__count {
+  font-size: 10px;
+  line-height: 14px;
+  padding: 2px 6px;
+  border-radius: 2px;
+  background-color: #3562A6;
+  margin-left: 8px;
+}
+
+.token__close {
+  line-height: 0;
+  padding: 2px 6px 2px 3px;
+}
+
+.token__close:hover {
+  background-color: #6588bd;
+}
+
+.token__icon {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.token__collapse {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  min-width: 100%;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.token__main--open + .token__collapse {
+  display: block;
+}
+
+.token__list {
+  background-color: #4774B9;
+  border-radius: 2px;
+  margin-top: 0;
+  padding-left: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.token__val {
+  width: 100%;
+  white-space: nowrap;
+  padding: 8px 8px 8px 12px;
+}
+
+.token__val:hover {
+  background-color: #6588bd;
+}
