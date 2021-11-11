@@ -46,7 +46,7 @@ body {
 }
 
 .token__name:hover {
-  background-color: #4e80cb;
+  background-color: #3f66a0;
 }
 
 .token__count {
@@ -64,7 +64,7 @@ body {
 }
 
 .token__close:hover {
-  background-color: #4e80cb;
+  background-color: #3f66a0;
 }
 
 .token__icon {
@@ -104,5 +104,5 @@ body {
 }
 
 .token__val:hover {
-  background-color: #4e80cb;
+  background-color: #3f66a0;
 }
