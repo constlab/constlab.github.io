@@ -1,5 +1,6 @@
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
 }
 
 .token {
@@ -19,8 +20,8 @@ body {
 }
 
 .token__main--open {
-  padding-bottom: 2px;
-  margin-bottom: -2px;
+  padding-bottom: 12px;
+  margin-bottom: -4px;
 }
 
 .token__btn {
@@ -45,7 +46,7 @@ body {
 }
 
 .token__name:hover {
-  background-color: #6588bd;
+  background-color: #4e80cb;
 }
 
 .token__count {
@@ -63,7 +64,7 @@ body {
 }
 
 .token__close:hover {
-  background-color: #6588bd;
+  background-color: #4e80cb;
 }
 
 .token__icon {
@@ -89,7 +90,7 @@ body {
 
 .token__list {
   background-color: #4774B9;
-  border-radius: 2px;
+  border-radius: 0 2px 2px;
   margin-top: 0;
   padding-left: 0;
   list-style-type: none;
@@ -103,5 +104,5 @@ body {
 }
 
 .token__val:hover {
-  background-color: #6588bd;
+  background-color: #4e80cb;
 }
